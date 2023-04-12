@@ -1,6 +1,6 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: nebser/nebser.github.io
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
