@@ -1,0 +1,167 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nebojsa Serafimovski
+title: Engineering Manager
+# email: nebojsa.serafimovski@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: OrtakDva
+github_username:  nebser
+linkedin_username: nebojsa-serafimovski-435692224
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Nebojsa, I’m primarily a software developer, partly a DevOps Engineer, sometimes a System Architect, but currently working as an Engineering Manager @ Happiest Baby.
+  
+  I’ve been working with computers and tools my entire life, but lately I mostly hangout with Golang, NodeJS, AWS, Docker, Kubernetes and people :)
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: SNOO Smart Sleeper @ Happiest Baby
+        link: https://www.happiestbaby.com/products/snoo-smart-bassinet
+        link_text: Product
+        description: # this will include new lines to allow paragraphs
+          "<p style='text-align: center;'>
+            Led a team that worked on creating and maintaining backend systems for controlling the SNOO device through the mobile app.
+          </p>"
+      - layout: top-middle
+        title: eCommerce Platform @ Happiest Baby
+        link: https://www.happiestbaby.com
+        link_text: Product
+        description: # this will include new lines to allow paragraphs
+          "<p style='text-align: center;'>
+            Platform for buying and renting Happiest Baby merchandise.
+          </p>"
+      - layout: top-middle
+        title: Affordability API @ Basiq
+        link: https://www.basiq.io/products/affordability
+        link_text: Product
+        description: # this will include new lines to allow paragraphs
+          "<p style='text-align: center;'>
+            Developed micro-services on AWS platform that specialize in credit risk estimation and income verification based on user’s bank account and transaction history.
+          </p>"
+      - layout: top-middle
+        title: Enrich API @ Basiq
+        link: https://www.basiq.io/products/enrich
+        link_text: Product
+        description:
+          "<p style='text-align: center;'>
+            Development of bank transaction enrichment services on AWS platform that classify a single transaction, determine location in which it took place and find a potential merchant receiver.
+          </p>"
+      - layout: top-middle
+        title: Connect API @ Basiq
+        link: https://www.basiq.io/products/connect
+        link_text: Product
+        description: 
+          "<p style='text-align: center;'>
+            Development of web crawlers that scrape bank account information and transaction history for the purpose of having one API for accessing financial data for any kind of bank.
+          </p>"
+      - layout: top-middle
+        title: CryptoVote
+        link: https://github.com/nebser/crypto-vote
+        additional_links:
+          - title:  nebser/crypto-vote
+            icon: fab fa-github
+            url: https://github.com/nebser/crypto-vote
+        description: 
+          "<p style='text-align: center;'>POC for an electronic voting system that is based on a proof-of-stake blockchain.</p>"
+      - layout: top-middle
+        title: MicroJava Compiler
+        link: https://github.com/nebser/mj-compiler
+        additional_links:
+          - title:  nebser/mj-compiler
+            icon: fab fa-github
+            url: https://github.com/nebser/mj-compiler
+        description: 
+          "<p style='text-align: center;'>
+            A compiler for a simplified version of the java programming language - MicroJava. The whole flow was split into 4 phases - lexical analysis, syntax analysis, semantic analysis and code generator.
+          </p>"
+      - layout: top-middle
+        title: ARM-like Assembler
+        link: https://github.com/nebser/assembler
+        additional_links:
+          - title:  nebser/assembler
+            icon: fab fa-github
+            url: https://github.com/nebser/assembler
+        description: 
+          "<p style='text-align: center;'>
+            C++ Implementation of a primitive assembler for an ARM-like assembly language
+          </p>"
+        
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Happiest Baby
+        # link_text: boringcompany.com
+        sub_title: Engineering Manager
+        caption: February 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+            Leading and coordinating an engineering team of 20 people that consists of backend developers, DevOps engineers, automation engineers and QAs in order to make a scalable, secure, fault-tolerant Happiest Baby system.
+      - layout: left
+        title: Happiest Baby
+        # link_text: boringcompany.com
+        sub_title: Lead Software Developer
+        caption: November 2020 - February 2022
+        description: | # this will include new lines to allow paragraphs
+            Led a backend team that focused on multiple micro-services for integration with Happiest Baby hardware devices, such as SNOO and SNOObie, as well as Happiest Baby mobile and web applications.
+      - layout: left
+        title: Happiest Baby
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: April 2019 - November 2020
+        description: | # this will include new lines to allow paragraphs
+            Part of a backend team that focused on creating a platform for buying and renting Happiest Baby merchandise.
+      - layout: left
+        title: Basiq
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: April 2019 - November 2020
+        description: | # this will include new lines to allow paragraphs
+            Worked on SaaS systems for various banks, specifically Enrich API and Affordability API.
+      - layout: left
+        title: Basiq
+        # link_text: boringcompany.com
+        sub_title: Software Developer
+        caption: October 2016 - April 2019
+        description: | # this will include new lines to allow paragraphs
+            Working on web scrapers for retrieving account and transaction information.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Belgrade
+        sub_title: BSc Computer Science
+        description: | # this will include new lines to allow paragraphs
+          I got my Bachelor’s degree in Computer Science at the University of Belgrade, Faculty of Electrical Engineering. For the purpose of writing my thesis I built a POC for a distributed voting system based on a custom built proof-of-stake blockchain.
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
