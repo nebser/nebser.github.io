@@ -21,7 +21,7 @@ linkedin_username: nebojsa-serafimovski-435692224
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Nebojsa, I’m primarily a software developer, partly a DevOps Engineer, sometimes a System Architect, but currently working as an Engineering Manager @ Happiest Baby.
+  Hi, I'm Nebojsa, I’m primarily a software developer, partly a DevOps Engineer, sometimes a System Architect, even a Solution Architect, but currently working as an Engineering Manager @ Happiest Baby.
   
   I’ve been working with computers and tools my entire life, but lately I mostly hangout with Golang, NodeJS, AWS, Docker, Kubernetes and people :)
 
@@ -31,11 +31,11 @@ content:
     content:
       - layout: top-middle
         title: Happiest Baby App @ Happiest Baby
-        link: https://www.happiestbaby.com/products/snoo-smart-bassinet
+        link: https://apps.apple.com/us/app/happiest-baby-makers-of-snoo/id1562132169
         link_text: Product
         description: # this will include new lines to allow paragraphs
           "<p style='text-align: center;'>
-            Led a backend team that worked on several features of the app such as in-app subscriptions, tracking of baby's activities and many more.
+            Supervised the implementation and launch of more than 10 Happiest Baby initiatives such as introduction of in-app subscriptions in the Happiest Baby App, support for tracking baby’s activity in the Happiest Baby App, development of an AI chatbot on the Happiest Baby Website and many more.
           </p>"
       - layout: top-middle
         title: SNOO Smart Sleeper @ Happiest Baby
@@ -55,7 +55,7 @@ content:
           </p>"
       - layout: top-middle
         title: Affordability API @ Basiq
-        link: https://www.basiq.io/products/affordability
+        link: https://api.basiq.io/v2.0/reference/affordability
         link_text: Product
         description: # this will include new lines to allow paragraphs
           "<p style='text-align: center;'>
@@ -63,7 +63,7 @@ content:
           </p>"
       - layout: top-middle
         title: Enrich API @ Basiq
-        link: https://www.basiq.io/products/enrich
+        link: https://api.basiq.io/v2.0/reference/enrich
         link_text: Product
         description:
           "<p style='text-align: center;'>
@@ -71,7 +71,7 @@ content:
           </p>"
       - layout: top-middle
         title: Connect API @ Basiq
-        link: https://www.basiq.io/products/connect
+        link: https://api.basiq.io/v2.0/reference/users
         link_text: Product
         description: 
           "<p style='text-align: center;'>
