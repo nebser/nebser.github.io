@@ -14,7 +14,6 @@ title: Engineering Manager
 darkmode: false
 
 # Social links
-twitter_username: OrtakDva
 github_username:  nebser
 linkedin_username: nebojsa-serafimovski-435692224
 
@@ -30,6 +29,14 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Happiest Baby App @ Happiest Baby
+        link: https://www.happiestbaby.com/products/snoo-smart-bassinet
+        link_text: Product
+        description: # this will include new lines to allow paragraphs
+          "<p style='text-align: center;'>
+            Led a backend team that worked on several features of the app such as in-app subscriptions, tracking of baby's activities and many more.
+          </p>"
       - layout: top-middle
         title: SNOO Smart Sleeper @ Happiest Baby
         link: https://www.happiestbaby.com/products/snoo-smart-bassinet
