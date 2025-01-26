@@ -119,7 +119,7 @@ content:
         sub_title: Engineering Manager
         caption: February 2022 - Present
         description: | # this will include new lines to allow paragraphs
-            Leading and coordinating an engineering team of 20 people that consists of backend developers, DevOps engineers, automation engineers and QAs in order to make a scalable, secure, fault-tolerant Happiest Baby system.
+            Leading and coordinating an engineering team of 8 people that consists of backend developers, DevOps engineers, automation engineers and QAs in order to make a scalable, secure, fault-tolerant Happiest Baby system.
       - layout: left
         title: Happiest Baby
         # link_text: boringcompany.com
